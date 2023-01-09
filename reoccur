@@ -1,0 +1,12 @@
+ public class Reocccur{
+     public static int sum(int k){
+         if(K> 0){
+             return K + sum (K-1);
+         }else{ 
+            return 0;
+        }
+        public  static void main ( string [] args){
+            int result = sum (10);
+            System.out.println(result);
+    }
+}
