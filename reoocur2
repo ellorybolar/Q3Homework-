@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
  public  class Recurs {
-
+int test = 3; 
     static void printFun(int test)
     {
         if (test < 1)
@@ -20,10 +20,13 @@ import java.util.Scanner;
         public static void main(String[] args){
             Scanner scanner = new Scanner(System.in);
             
-        int test = new  Scanner; 
+        int test = scanner.nextInt();
+        System.out.println( "int test" ); 
         printFun( test);
     }
 }
 
 
  
+
+
