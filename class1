@@ -1,0 +1,19 @@
+ublic class MyClass{
+    int method (){
+        return 10;
+    }
+     String method (int i) {
+         return "Hello";
+     }
+     public static void method1(String a,  int i){
+     }
+     public static int method(float f){
+         return(" 20 , 55");
+     }
+     public static int main( int a, int b){
+           return a+b;
+     }
+        public static void main (String [] args){
+            System.out.println( main (10, 20));
+        }
+    }
