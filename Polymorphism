@@ -1,0 +1,48 @@
+/**
+ * Write a description of class Polymorphism here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ *Definition of Polymorphism in java- many  forms 
+ * Why: Preserve code, and reuse code.
+ */
+public class Polymorphism{
+     public void mammal(){
+           System.out.printn("The mammals have Mammarian glands");
+        }     
+}
+class Dog extends Polymorphism{ // The extends keyword, is used to extend the class to the ooriginal class
+    public void mammal(){
+        System.out.println( " Is a mammal"):
+    }
+}
+class Snail extends Polymorphism{
+     public void mammal(){
+         System.out.println(" Not a mammal");
+        }
+    }
+class Deer extends Polymorphism{
+     public void mammal(){
+          System.out.println(" Is a mammal");
+        }       
+}
+class Python  extends Polymorphism{
+     public void mammal(){
+            System.out.println(" Is not a mammal");
+        }
+    }        
+class MainSpecies{
+     public static void main(String[] args){
+           Polymorphism myPolymorphism = new Polymorphism();  //Creates a polymorphism object 
+           Polymorphism myDog = newDog();                      // Creates a Dog object 
+           Polymorphism mySnail = new Snail();                // Creates a Snail object 
+           Polymorphism myDeer = new Deer();
+           Polymorphism myPython = new Python();
+           MyPolymorphism.mammal();
+           myDog.mammal();
+           mySnail.mammal();
+           myDeer.mammal();
+           myPhython.mammal();
+      }
+}      
+      
